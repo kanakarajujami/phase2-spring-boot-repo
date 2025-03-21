@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.nt.SpringProject01&apos; to &apos;com.nt&apos;&#x0D;&#x0A;- Original project: &apos;SpringProject01&apos;&#x0D;&#x0A;- Original element: &apos;SpringProject01/src/main/java/com.nt.SpringProject01&apos;&#x0D;&#x0A;- Renamed element: &apos;SpringProject01/src/main/java/com.nt&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.nt.SpringProject01&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nt.SpringProject01" name="com.nt" qualified="false" references="true" stamp="1742575769910" textual="false" version="1.0"/>
+</session>
