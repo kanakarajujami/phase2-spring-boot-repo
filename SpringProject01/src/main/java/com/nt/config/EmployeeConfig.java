@@ -21,7 +21,8 @@ public class EmployeeConfig {
 	public Employee employee2() {
 		Employee emp=new Employee();
 		emp.setName("Ram");
-		emp.setSalary(30000);
+		emp.setSalary(50000);
 		return emp;
 	}
+	
 }

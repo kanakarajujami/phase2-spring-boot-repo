@@ -2,7 +2,6 @@ package com.nt;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 import com.nt.config.EmployeeConfig;
 import com.nt.pojo.Employee;
 
