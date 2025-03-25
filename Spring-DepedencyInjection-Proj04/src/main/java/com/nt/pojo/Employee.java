@@ -6,20 +6,23 @@ import org.springframework.stereotype.Component;
 @Component
 public class Employee {
 
-	//@Autowired  //construction injunction
-	public Address address;
+
+	private String name="ram";
+private	 String desg="java developer";
+	 
+	//@Autowired  //field injunction
+	
+public Address address;
 	
 	//construction injunction
-	  public Employee(Address address) {
+
+/*	public Employee(Address address) {
 	          this.address = address; 
-		  }
+		  }*/
 	
 
-	String name="ram";
-	 String desg="java developer";
 	 
-	 
-//@Autowired //setter level injunction
+@Autowired //setter level injunction
 	public void setAddress(Address address) {
 		this.address = address;
 	}
