@@ -5,6 +5,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.nt.config.VehicleConfiguration;
+import com.nt.serivce.Person;
 import com.nt.serivce.Vehicle;
 
 public class App 
@@ -14,8 +15,8 @@ public class App
      
     	 ApplicationContext context=new AnnotationConfigApplicationContext(VehicleConfiguration.class);
     	 
-    	    Vehicle vehicle= context.getBean(Vehicle.class);
+    	    Person person= context.getBean(Person.class);
     	    
-    	    vehicle.vehicleDrive();
+    	    person.trip();
     }
 }
