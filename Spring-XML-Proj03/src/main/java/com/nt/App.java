@@ -10,8 +10,10 @@ public class App {
     	
     	ApplicationContext context=new ClassPathXmlApplicationContext("beans.xml");
     	
+    	
     	   Car car=context.getBean(Car.class);
     	   System.out.println("car name:"+car.getName());
     	   System.out.println("car model name:"+car.getModel());
+    	   
            }
 }
