@@ -10,7 +10,7 @@ import com.nt.tyres.Tyres;
 
 @Component
 public class Car {
-
+//car class
 	private Logger logger=Logger.getLogger(Car.class.getName());
 	@Autowired
 	private MusicPlayer musicPlayer;
