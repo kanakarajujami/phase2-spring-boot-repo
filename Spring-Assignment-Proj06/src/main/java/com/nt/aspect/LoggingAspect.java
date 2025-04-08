@@ -31,5 +31,7 @@ public class LoggingAspect {
 	        logger.info(joinPoint.getSignature().toString() + " method execution end");
 	        
 	        return result;
+	        
+	      
 	    }
 }

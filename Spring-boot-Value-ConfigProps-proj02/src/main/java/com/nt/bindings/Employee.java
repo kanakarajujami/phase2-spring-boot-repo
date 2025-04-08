@@ -3,12 +3,11 @@ package com.nt.bindings;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix = "emp.info")
+@ConfigurationProperties("emp.info")
 public class Employee {
 
 	    Integer id;

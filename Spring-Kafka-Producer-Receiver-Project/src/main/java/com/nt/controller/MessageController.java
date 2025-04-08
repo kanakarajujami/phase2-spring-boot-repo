@@ -30,6 +30,6 @@ public class MessageController {
 	 @GetMapping("/readAll")
 	 public String getAllMessages() {
 		 
-	  return "<h1>"	 +store.readMessages()+"</h2>";
+	  return store.readMessages();
 	 }
 }
