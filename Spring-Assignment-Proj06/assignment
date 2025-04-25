@@ -1,0 +1,13 @@
+Assignment:
+->Person Bean has a dependency on a vehicle bean
+->VehicIe bean has dependency on vehicle service bean to play;
+music and move the vehicle
+-> VehicleService bean depends on the implementation of
+Speakers and tyres to serve vehicle bean requests
+
+->Tyres interface with rotate() method
+-> BridgeStoneTyres implements tyres
+->MichelinTyres implements tyres
+->Speakers interface with makesound()
+-> Sony speaker bean implements of speaker
+->Bose speaker bean implementation of speaker

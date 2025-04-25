@@ -1,0 +1,30 @@
+spring:
+    application:
+        name: Spring-boot-Value-ConfigProps-proj02
+
+#student properties
+student:
+     info:
+        id: 123
+        name: mahesh
+        branch: ECE
+        phoneNo: 74984658984
+emp:
+   info:
+      id: 456
+      name: sattireddy
+      desg: support-engineer
+      salary:  50000.0 
+      nick-names:
+        -  chinna
+        -  munna
+        -  chiru
+      companies:
+        -  accenture
+        -  infosys 
+        -  tcs
+   
+      ids:
+       aadhar:  56484659489
+       license:   45384689364
+       voterid:  25426345447
